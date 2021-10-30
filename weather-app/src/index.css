@@ -119,6 +119,14 @@ body {
         height: 150vh;
         ;
     }
+    .container {
+        width: 70vw;
+        height: 110vh;
+        /* background-color: red; */
+        border: 5px solid rgb(191, 129, 233);
+        border-radius: 4rem;
+        display: block;
+    }
     .search-bar {
         display: block;
         /* background-color: red; */
@@ -168,6 +176,11 @@ body {
     .results-name h1 {
         text-align: center;
         font-size: 3rem;
+        font-family: var(--font1);
+    }
+    .results-name h2 {
+        text-align: center;
+        font-size: 2rem;
         font-family: var(--font1);
     }
     .results-data {
