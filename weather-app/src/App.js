@@ -46,7 +46,7 @@ function App() {
 
   useEffect(() => {
     const fetchCity = async ()=> {
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=d272c62fde62caf8f22ed44594475afe`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=d272c62fde62caf8f22ed44594475afe&units=imperial`;
       const res = await fetch(url);
       const data = await res.json();
       setCity(data.main);
